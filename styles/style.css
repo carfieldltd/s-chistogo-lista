@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: 24px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+
+}
+
+.header__logo-image {
+    margin: 24px 262px 92.57px 19px;
+}
+
+.header__menu {
+    
+}
+
+.header__menu-list {
+    list-style: none;
+}
+
+.header__menu-item a {
+    color: white;
+    text-decoration: underline;
+}
+
+.header__menu-item_active a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu-link {
+
+}
+
+.cover {
+    margin: 7px 0px 30px 20px; 
+    background-image: url(images\cover.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 84px;
+}
+
+span {
+    display: block;
+}
+
+.cover__title {
+
+}
+
+.accent-span {
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    margin: 30px 20px 38px 20px;
+}
+
+.intro__date {
+
+}
+
+.reasons {
+    margin: 0;
+}
+
+.how-to {
+    margin: 40px 20px 0px 20px;
+}
+
+.content-section {
+    width: 360px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+    background-color: black;
+    color: white;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: black;
+}
+
+.content-section__subtitle {
+    margin: 40px 20px 32px 20px;
+    font-size: 28px;
+}
+
+.content-section__introduction {
+    margin: 32px 20px;
+}
+
+.content-section__list-item {
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-section__list-accent {
+    font-weight: bold;
+}
+
+.footer {
+    margin: 0;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #FEE42A;
+}
+
+.footer__copy {
+    margin: 20px auto 20px 20px;
+    color: white;
+}
+
+.footer__links {
+    margin: 22px 20px 22px auto;
+    list-style: none;
+    color:white;
+}
