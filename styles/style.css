@@ -15,21 +15,24 @@ a {
 }
 
 .header {
-    margin: 24px 20px;
+    margin: auto;
+    width: 360px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .header__logo {
-
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .header__logo-image {
-    margin: 24px 262px 92.57px 19px;
+    
 }
 
 .header__menu {
+    margin: 25px 18.55px 24px auto ;
     
 }
 
@@ -40,6 +43,7 @@ a {
 .header__menu-item a {
     color: white;
     text-decoration: underline;
+    line-height: 19.2px;
 }
 
 .header__menu-item_active a {
@@ -52,11 +56,9 @@ a {
 }
 
 .cover {
-    margin: 7px 0px 30px 20px; 
-    background-image: url(images\cover.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 84px;
+    margin: 7px 0 0 20px; 
+    background-image: url(images/cover.svg);
+    background-size: 95% auto;
 }
 
 span {
@@ -64,11 +66,13 @@ span {
 }
 
 .cover__title {
-
+    font-family: 'EB Garamond', Arial, sans-serif;
+    font-size: 72px;
+    margin-left: 21px;
 }
 
 .accent-span {
-
+    text-align: left;
 }
 
 .text-center {
@@ -77,14 +81,29 @@ span {
 
 .text-right {
     text-align: right;
+    margin: 0 24px 5px auto;
 }
 
 .intro {
-    margin: 30px 20px 38px 20px;
+    margin: 0 20px 38px 20px;
+}
+
+.intro__heading {
+    display: flex;
+}
+
+.intro__title {
+    margin: 0 0 0 20px;
+    width: 203px;
 }
 
 .intro__date {
+    white-space: nowrap;
+    margin: 0 0 19px 16px;
+}
 
+.intro__main-text {
+    margin: 24px 20px 24px 20px;
 }
 
 .reasons {
