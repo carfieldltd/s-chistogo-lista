@@ -28,12 +28,11 @@ a {
 }
 
 .header__logo-image {
-    
+    width: 78.45px;
 }
 
 .header__menu {
-    margin: 25px 18.55px 24px auto ;
-    
+    margin: 25px 18.55px 24px auto;
 }
 
 .header__menu-list {
@@ -57,18 +56,20 @@ a {
 
 .cover {
     margin: 7px 0 0 20px; 
-    background-image: url(images/cover.svg);
-    background-size: 95% auto;
+    background-image: url('../images/cover.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 360px;
 }
 
-span {
+.cover span {
     display: block;
 }
 
 .cover__title {
     font-family: 'EB Garamond', Arial, sans-serif;
     font-size: 72px;
-    margin-left: 21px;
+    margin-left: 20px;
 }
 
 .accent-span {
