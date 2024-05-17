@@ -173,17 +173,17 @@ a {
     color: #131313;
 }
 
-.card_text-only {
+/* .card_text-only {
 
-}
+} */
 
 .card__content {
     display: flex;
 }
 
-.card__author {
+/* .card__author {
     
-}
+} */
 
 .card__author-photo {
     width: 100px;
