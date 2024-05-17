@@ -55,7 +55,7 @@ a {
 }
 
 .cover {
-    margin: 7px 0 0 20px; 
+    margin: 7px 0 0 20px;
     background-image: url('../images/cover.svg');
     background-size: contain;
     background-repeat: no-repeat;
