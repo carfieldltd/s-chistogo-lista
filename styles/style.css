@@ -50,10 +50,6 @@ a {
     text-decoration: none;
 }
 
-.header__menu-link {
-
-}
-
 .cover {
     margin: 7px 0 0 20px;
     background-image: url('../images/cover.svg');
@@ -82,6 +78,9 @@ a {
 
 .text-right {
     text-align: right;
+}
+
+.text-right-v2 {
     margin: 0 24px 5px auto;
 }
 
@@ -90,13 +89,14 @@ a {
 }
 
 .intro__heading {
-    display: flex;
+    width: 320px;
+    height: 63px;
+    margin: 40px 20px auto 20px;
 }
 
-.intro__title {
-    margin: 0 0 0 20px;
-    width: 203px;
-}
+/* .intro__title {
+    
+} */
 
 .intro__date {
     white-space: nowrap;
@@ -107,13 +107,13 @@ a {
     margin: 24px 20px 24px 20px;
 }
 
-.reasons {
+/* .reasons {
     margin: 0;
-}
+} */
 
-.how-to {
+/* .how-to {
     margin: 40px 20px 0px 20px;
-}
+} */
 
 .content-section {
     width: 360px;
@@ -140,6 +140,10 @@ a {
     margin: 32px 20px;
 }
 
+.content-section__list {
+    margin: auto 20px;
+}
+
 .content-section__list-item {
     margin-top: 16px;
     margin-left: 20px;
@@ -150,13 +154,66 @@ a {
     font-weight: bold;
 }
 
+.cards-list {
+    margin-left: 20px;
+    margin-right: 21px;
+}
+
+.card {
+    border-radius: 30px;
+    width: 319px;
+}
+
+.card_theme_dark {
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+
+.card_text-only {
+
+}
+
+.card__content {
+    display: flex;
+}
+
+.card__author {
+    
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card__author-name {
+    margin-left: 20px;
+}
+
+.card__title {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.card__text {
+    margin: 8px 20px 20px 20px;
+}
+
 .footer {
-    margin: 0;
+    margin: auto;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-top: 1px solid #FEE42A;
+    width: 360px;
 }
 
 .footer__copy {
@@ -168,4 +225,11 @@ a {
     margin: 22px 20px 22px auto;
     list-style: none;
     color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__links_item {
+    margin-left: 35px;
 }
