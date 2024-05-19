@@ -69,6 +69,7 @@ a {
     font-family: 'EB Garamond', Arial, sans-serif;
     font-size: 72px;
     margin-left: 20px;
+    margin: 0 24px 5px auto;
 }
 
 .accent-span {
@@ -83,17 +84,12 @@ a {
     text-align: right;
 }
 
-.text-right-v2 {
-    margin: 0 24px 5px auto;
-}
-
 .intro {
     margin: 0 20px 38px 20px;
 }
 
 .intro__heading {
     width: 320px;
-    height: 63px;
     margin: 40px 20px auto 20px;
     display: flex;
     flex-direction: row;
@@ -211,17 +207,16 @@ a {
     border-top: 1px solid #FEE42A;
     width: 360px;
     background-color: black;
+    color: white;
 }
 
 .footer__copy {
     margin: 20px auto 20px 20px;
-    color: white;
 }
 
 .footer__links {
     margin: 22px 20px 22px auto;
-    list-style: none;
-    color:white;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -229,4 +224,5 @@ a {
 
 .footer__links_item {
     margin-left: 35px;
+    color: white;
 }
